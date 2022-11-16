@@ -6,7 +6,7 @@
 > 5. Reset Offsets 
 
 #### 1.1 Start your Kafka-Setup with a docker-compose file.
-> 1. Since we are running in a docker environment we shall connect with a container and execute our commands from within a container. Please use the docker-compose.yml, if not already done so in the previous excercise, to initiate your environment by executing the following command: `docker-compose -f kafka-kafka_manager-zookeeper.yml up`
+> 1. Since we are running in a docker environment we shall connect with a container and execute our commands from within a container. Please use the docker-compose.yml, if not already done so in the previous excercise, to initiate your environment by executing the following command: `docker-compose -f 03_start-kafka-docker-compose.yml up`
 > 2. Check whether the following containers: `zookeeper`, `kafka-manager` and `kafka` are up and running by execting the following command: `docker container ls -a`
 ```
 CONTAINER ID   IMAGE                            COMMAND                  CREATED       STATUS       PORTS                                                                     NAMES
